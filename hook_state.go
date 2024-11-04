@@ -1,9 +1,10 @@
 package lua_debugger
 
 import (
-	"github.com/edolphin-ydf/gopherlua-debugger/proto"
-	lua "github.com/yuin/gopher-lua"
 	"log"
+
+	"github.com/gavin-wuz/gopherlua-debugger/proto"
+	lua "github.com/yuin/gopher-lua"
 )
 
 type HookStateInter interface {

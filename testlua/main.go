@@ -1,9 +1,10 @@
 package main
 
 import (
-	lua_debugger "github.com/edolphin-ydf/gopherlua-debugger"
-	lua "github.com/yuin/gopher-lua"
 	"log"
+
+	lua_debugger "github.com/gavin-wuz/gopherlua-debugger"
+	lua "github.com/yuin/gopher-lua"
 )
 
 func main() {

@@ -2,10 +2,11 @@ package lua_debugger
 
 import (
 	"context"
-	"github.com/edolphin-ydf/gopherlua-debugger/proto"
-	lua "github.com/yuin/gopher-lua"
 	"sync"
 	"time"
+
+	"github.com/gavin-wuz/gopherlua-debugger/proto"
+	lua "github.com/yuin/gopher-lua"
 )
 
 func LuaError(L *lua.LState, msg string) int {

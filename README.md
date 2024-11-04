@@ -5,7 +5,7 @@ this is the client side for [EmmyLua](https://github.com/EmmyLua) and supported 
 # how to use
 
 1. install EmmyLua for goland/idea/... and learn how to debug lua with this plugin
-2. go get github.com/edolphin-ydf/gopherlua-debugger
+2. go get github.com/gavin-wuz/gopherlua-debugger
 3. edit your go.mod, add this line `replace github.com/yuin/gopher-lua => github.com/edolphin-ydf/gopher-lua v0.0.0-20191105142246-92ca436742b9`
 4. in your go code, after `L := lua.NewState()` add a new line `lua_debugger.Preload(L)`, of course, you should import gopher-lua-debugger
 5. in your lua code, anywhere you want to start debug/break, add the following line

@@ -2,11 +2,12 @@ package lua_debugger
 
 import (
 	"container/list"
-	"github.com/edolphin-ydf/gopherlua-debugger/proto"
-	lua "github.com/yuin/gopher-lua"
 	"log"
 	"strings"
 	"sync"
+
+	"github.com/gavin-wuz/gopherlua-debugger/proto"
+	lua "github.com/yuin/gopher-lua"
 )
 
 func Hook(L *lua.LState) int {
